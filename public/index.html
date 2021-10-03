@@ -19,16 +19,18 @@
     </style> -->
   </head>
   <body>
-    <main>
-      <div class="container mx-auto flex flex-col md:flex-row-reverse items-center justify-center h-screen w-full">
-        <div class="">
+    <main class="w-full h-screen">
+      <div class="container mx-auto flex flex-col md:flex-row-reverse items-center justify-center h-full w-full">
+        <div class="my-5 relative" style="background-image: url(./images/pattern-bg.svg)">
           <figure class="relative">
-            <img src="./images/image-tanya.jpg" width="340" height="340" alt="image-tanya" />
+            <img src="./images/image-tanya.jpg" class="rounded-lg shadow-xl" width="340" height="340" alt="image-tanya" />
             <div class="w-24 md:w-20 h-10 bg-white rounded-3xl absolute -bottom-5 left-28 md:left-8">
               <div class="h-full flex justify-around items-center">
+                <!-- icon-prev -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18">
                   <path fill="none" stroke="#8585AC" stroke-width="3" d="M11 1L3 9l8 8" />
                 </svg>
+                <!-- icon-next -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18">
                   <path fill="none" stroke="#8585AC" stroke-width="3" d="M2 1l8 8-8 8" />
                 </svg>
@@ -36,8 +38,13 @@
             </div>
           </figure>
         </div>
-        <div class="pt-9">
-          <p class="w-72 text-center md:text-left">
+
+        <div class="pt-9 relative mt-11 md:mt-0">
+          <!-- pattern-quotes -->
+          <figure class="absolute w-1/5 md:w-1/4 left-28 md:left-1/4 top-3 md:-top-1">
+            <img src="./images/pattern-quotes.svg" alt="pattern-quotes" />
+          </figure>
+          <p class="w-72 text-center md:text-left z-10">
             “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m
             now in the job of my dreams and so excited about the future. ”
           </p>

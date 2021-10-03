@@ -17789,20 +17789,12 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.bg-pattern-bg {
-  background-image: url('/images/pattern-bg.svg');
+.bg-john_image {
+  background-image: url('public/images/image-john.jpg');
 }
 
-.bg-pattern-curve {
-  background-image: url('/images/pattern-curve.svg');
-}
-
-.bg-pattern-quotes {
-  background-image: url('/images/pattern-quotes.svg');
-}
-
-.bg-pas {
-  background-image: url('/images/image-john.jpg');
+.bg-tanya_image {
+  background-image: url('./images/image-tanya.jpg');
 }
 
 .from-transparent {
@@ -49384,20 +49376,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:bg-pattern-bg {
-    background-image: url('/images/pattern-bg.svg');
+  .sm\:bg-john_image {
+    background-image: url('public/images/image-john.jpg');
   }
 
-  .sm\:bg-pattern-curve {
-    background-image: url('/images/pattern-curve.svg');
-  }
-
-  .sm\:bg-pattern-quotes {
-    background-image: url('/images/pattern-quotes.svg');
-  }
-
-  .sm\:bg-pas {
-    background-image: url('/images/image-john.jpg');
+  .sm\:bg-tanya_image {
+    background-image: url('./images/image-tanya.jpg');
   }
 
   .sm\:from-transparent {
@@ -80627,20 +80611,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:bg-pattern-bg {
-    background-image: url('/images/pattern-bg.svg');
+  .md\:bg-john_image {
+    background-image: url('public/images/image-john.jpg');
   }
 
-  .md\:bg-pattern-curve {
-    background-image: url('/images/pattern-curve.svg');
-  }
-
-  .md\:bg-pattern-quotes {
-    background-image: url('/images/pattern-quotes.svg');
-  }
-
-  .md\:bg-pas {
-    background-image: url('/images/image-john.jpg');
+  .md\:bg-tanya_image {
+    background-image: url('./images/image-tanya.jpg');
   }
 
   .md\:from-transparent {
@@ -111870,20 +111846,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:bg-pattern-bg {
-    background-image: url('/images/pattern-bg.svg');
+  .lg\:bg-john_image {
+    background-image: url('public/images/image-john.jpg');
   }
 
-  .lg\:bg-pattern-curve {
-    background-image: url('/images/pattern-curve.svg');
-  }
-
-  .lg\:bg-pattern-quotes {
-    background-image: url('/images/pattern-quotes.svg');
-  }
-
-  .lg\:bg-pas {
-    background-image: url('/images/image-john.jpg');
+  .lg\:bg-tanya_image {
+    background-image: url('./images/image-tanya.jpg');
   }
 
   .lg\:from-transparent {
@@ -143113,20 +143081,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:bg-pattern-bg {
-    background-image: url('/images/pattern-bg.svg');
+  .xl\:bg-john_image {
+    background-image: url('public/images/image-john.jpg');
   }
 
-  .xl\:bg-pattern-curve {
-    background-image: url('/images/pattern-curve.svg');
-  }
-
-  .xl\:bg-pattern-quotes {
-    background-image: url('/images/pattern-quotes.svg');
-  }
-
-  .xl\:bg-pas {
-    background-image: url('/images/image-john.jpg');
+  .xl\:bg-tanya_image {
+    background-image: url('./images/image-tanya.jpg');
   }
 
   .xl\:from-transparent {
@@ -174356,20 +174316,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:bg-pattern-bg {
-    background-image: url('/images/pattern-bg.svg');
+  .\32xl\:bg-john_image {
+    background-image: url('public/images/image-john.jpg');
   }
 
-  .\32xl\:bg-pattern-curve {
-    background-image: url('/images/pattern-curve.svg');
-  }
-
-  .\32xl\:bg-pattern-quotes {
-    background-image: url('/images/pattern-quotes.svg');
-  }
-
-  .\32xl\:bg-pas {
-    background-image: url('/images/image-john.jpg');
+  .\32xl\:bg-tanya_image {
+    background-image: url('./images/image-tanya.jpg');
   }
 
   .\32xl\:from-transparent {

@@ -4,10 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "pattern-bg": "url('/images/pattern-bg.svg')",
-        "pattern-curve": "url('/images/pattern-curve.svg')",
-        "pattern-quotes": "url('/images/pattern-quotes.svg')",
-        pas: "url('/images/image-john.jpg')",
+        john_image: "url('public/images/image-john.jpg')",
+        tanya_image: "url('./images/image-tanya.jpg')",
       },
     },
   },
