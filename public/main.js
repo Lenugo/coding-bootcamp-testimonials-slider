@@ -18,6 +18,16 @@ prev.addEventListener("click", () => {
   tanya();
 });
 
+const page = numberPage => {
+  if (numberPage > 0) {
+    next.style.cursor = "auto";
+    prev.style.cursor = "pointer";
+  } else {
+    prev.style.cursor = "auto";
+    next.style.cursor = "pointer";
+  }
+};
+
 const john = () => {
   named.innerHTML = "John Tarkpor";
   person.src = "./images/image-john.jpg";
@@ -28,6 +38,7 @@ const john = () => {
   course. The depth the instructors go into is incredible. I now feel so
   confident about starting up as a professional developer. ”
   `;
+  page(1);
 };
 
 const tanya = () => {
@@ -40,4 +51,5 @@ const tanya = () => {
     until now. I couldn’t recommend this course enough. I’m
     now in the job of my dreams and so excited about the future. ”
   `;
+  page(0);
 };
