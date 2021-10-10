@@ -17789,14 +17789,6 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.bg-john_image {
-  background-image: url('public/images/image-john.jpg');
-}
-
-.bg-tanya_image {
-  background-image: url('./images/image-tanya.jpg');
-}
-
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -22389,68 +22381,55 @@ video {
 }
 
 .text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: .75rem;
 }
 
 .text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: .875rem;
+}
+
+.text-tiny {
+  font-size: .875rem;
 }
 
 .text-base {
   font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+}
+
+.text-1x2 {
+  font-size: 1.2rem;
 }
 
 .text-2xl {
   font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-3xl {
   font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl {
   font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
 }
 
 .text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+  font-size: 4rem;
 }
 
 .text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+  font-size: 5rem;
 }
 
 .font-thin {
@@ -49376,14 +49355,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:bg-john_image {
-    background-image: url('public/images/image-john.jpg');
-  }
-
-  .sm\:bg-tanya_image {
-    background-image: url('./images/image-tanya.jpg');
-  }
-
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -53976,68 +53947,55 @@ video {
   }
 
   .sm\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: .75rem;
   }
 
   .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: .875rem;
+  }
+
+  .sm\:text-tiny {
+    font-size: .875rem;
   }
 
   .sm\:text-base {
     font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .sm\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .sm\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
+  }
+
+  .sm\:text-1x2 {
+    font-size: 1.2rem;
   }
 
   .sm\:text-2xl {
     font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .sm\:text-3xl {
     font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .sm\:text-4xl {
     font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .sm\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
   }
 
   .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+    font-size: 4rem;
   }
 
   .sm\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .sm\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .sm\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 5rem;
   }
 
   .sm\:font-thin {
@@ -80611,14 +80569,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:bg-john_image {
-    background-image: url('public/images/image-john.jpg');
-  }
-
-  .md\:bg-tanya_image {
-    background-image: url('./images/image-tanya.jpg');
-  }
-
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -85211,68 +85161,55 @@ video {
   }
 
   .md\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: .75rem;
   }
 
   .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: .875rem;
+  }
+
+  .md\:text-tiny {
+    font-size: .875rem;
   }
 
   .md\:text-base {
     font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .md\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
+  }
+
+  .md\:text-1x2 {
+    font-size: 1.2rem;
   }
 
   .md\:text-2xl {
     font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .md\:text-3xl {
     font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .md\:text-4xl {
     font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+    font-size: 4rem;
   }
 
   .md\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .md\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 5rem;
   }
 
   .md\:font-thin {
@@ -111846,14 +111783,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:bg-john_image {
-    background-image: url('public/images/image-john.jpg');
-  }
-
-  .lg\:bg-tanya_image {
-    background-image: url('./images/image-tanya.jpg');
-  }
-
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -116446,68 +116375,55 @@ video {
   }
 
   .lg\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: .75rem;
   }
 
   .lg\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: .875rem;
+  }
+
+  .lg\:text-tiny {
+    font-size: .875rem;
   }
 
   .lg\:text-base {
     font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .lg\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
+  }
+
+  .lg\:text-1x2 {
+    font-size: 1.2rem;
   }
 
   .lg\:text-2xl {
     font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:text-3xl {
     font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .lg\:text-4xl {
     font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .lg\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
   }
 
   .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+    font-size: 4rem;
   }
 
   .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .lg\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 5rem;
   }
 
   .lg\:font-thin {
@@ -143081,14 +142997,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:bg-john_image {
-    background-image: url('public/images/image-john.jpg');
-  }
-
-  .xl\:bg-tanya_image {
-    background-image: url('./images/image-tanya.jpg');
-  }
-
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -147681,68 +147589,55 @@ video {
   }
 
   .xl\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: .75rem;
   }
 
   .xl\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: .875rem;
+  }
+
+  .xl\:text-tiny {
+    font-size: .875rem;
   }
 
   .xl\:text-base {
     font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .xl\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .xl\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
+  }
+
+  .xl\:text-1x2 {
+    font-size: 1.2rem;
   }
 
   .xl\:text-2xl {
     font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .xl\:text-3xl {
     font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .xl\:text-4xl {
     font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .xl\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
   }
 
   .xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+    font-size: 4rem;
   }
 
   .xl\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 5rem;
   }
 
   .xl\:font-thin {
@@ -174316,14 +174211,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:bg-john_image {
-    background-image: url('public/images/image-john.jpg');
-  }
-
-  .\32xl\:bg-tanya_image {
-    background-image: url('./images/image-tanya.jpg');
-  }
-
   .\32xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -178916,68 +178803,55 @@ video {
   }
 
   .\32xl\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: .75rem;
   }
 
   .\32xl\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: .875rem;
+  }
+
+  .\32xl\:text-tiny {
+    font-size: .875rem;
   }
 
   .\32xl\:text-base {
     font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .\32xl\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .\32xl\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
+  }
+
+  .\32xl\:text-1x2 {
+    font-size: 1.2rem;
   }
 
   .\32xl\:text-2xl {
     font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .\32xl\:text-3xl {
     font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .\32xl\:text-4xl {
     font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .\32xl\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
   }
 
   .\32xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+    font-size: 4rem;
   }
 
   .\32xl\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 5rem;
   }
 
   .\32xl\:font-thin {

@@ -19,37 +19,37 @@
     </style> -->
   </head>
   <body>
-    <main class="w-full h-screen flex flex-col">
+    <main class="w-full h-screen flex flex-col min-w-min">
       <div class="container mx-auto flex flex-col md:flex-row-reverse items-center justify-center h-full w-full">
         <div class="my-5">
           <figure class="relative">
             <figure class="relative">
               <img src="./images/pattern-bg.svg" class="w-80 md:w-96 h-full" alt="pattern-bg" />
               <img
+                id="imgPerson"
                 src="./images/image-tanya.jpg"
                 class="rounded-lg shadow-xl absolute top-8 left-8 md:top-9 w-60 md:w-72"
                 alt="image-tanya"
               />
             </figure>
-            <div class="w-20 h-10 bg-white rounded-3xl absolute bottom-1 md:bottom-4 left-28 md:left-12 shadow-xl">
+            <div class="w-20 h-10 bg-white rounded-3xl absolute bottom-2 md:bottom-4 left-28 md:left-12 shadow-xl">
               <figure class="h-full flex justify-around items-center">
-                <img src="./images/icon-prev.svg" class="w-2.5" alt="icon-prev" />
-                <img src="./images/icon-next.svg" class="w-2.5" alt="icon-next" />
+                <img id="iconPrev" src="./images/icon-prev.svg" class="w-2.5 cursor-pointer" alt="icon-prev" />
+                <img id="iconNext" src="./images/icon-next.svg" class="w-2.5 cursor-pointer" alt="icon-next" />
               </figure>
             </div>
           </figure>
         </div>
 
-        <div class="pt-9 relative mt-8 md:mt-0">
-          <!-- pattern-quotes -->
-          <figure class="absolute w-1/5 md:w-20 left-28 md:left-14 top-3 md:-top-2">
+        <div class="pt-8 relative">
+          <figure class="absolute w-1/5 md:w-20 left-32 md:left-14 top-1 md:-top-2">
             <img src="./images/pattern-quotes.svg" alt="pattern-quotes" />
           </figure>
-          <p class="w-80 md:w-96 text-center md:text-left z-10 text-lg md:text-xl">
+          <p class="w-80 md:w-96 text-center md:text-left z-10 text-1x2 md:text-xl">
             “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m
             now in the job of my dreams and so excited about the future. ”
           </p>
-          <p class="flex flex-col md:flex-row pt-3 md:pt-8 items-center justify-center gap-x-2 font-bold md:justify-start md:text-sm">
+          <p class="flex flex-col md:flex-row pt-3 md:pt-4 items-center justify-center gap-x-2 font-bold md:justify-start md:text-sm">
             Tanya Sinclair <span class="font-normal text-gray-400"> UX Engineer </span>
           </p>
         </div>
@@ -70,5 +70,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div> -->
+    <script src="./main.js"></script>
   </body>
 </html>
