@@ -5,8 +5,9 @@ const person = d.getElementById("imgPerson");
 const named = d.getElementById("name");
 const occupation = d.getElementById("occupation");
 const description = d.getElementById("description");
+const queryMobile = matchMedia("(max-width: 768px)");
 
-window.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   tanya();
 });
 
@@ -28,6 +29,15 @@ const page = numberPage => {
   }
 };
 
+const changeSize = page => {
+  if (page == 0) {
+    queryMobile.matches ? (description.style.fontSize = "1.20rem") : (description.style.fontSize = "1.25rem");
+  } else {
+    queryMobile.matches ? (description.style.fontSize = "1.25rem") : (description.style.fontSize = "1.28rem");
+  }
+};
+queryMobile.addEventListener("change", changeSize);
+
 const john = () => {
   named.innerHTML = "John Tarkpor";
   person.src = "./images/image-john.jpg";
@@ -39,6 +49,7 @@ const john = () => {
   confident about starting up as a professional developer. ”
   `;
   page(1);
+  changeSize(1);
 };
 
 const tanya = () => {
@@ -48,8 +59,9 @@ const tanya = () => {
   occupation.innerHTML = "UX Enginner";
   description.innerHTML = `
   “ I’ve been interested in coding for a while but never taken the jump, 
-    until now. I couldn’t recommend this course enough. I’m
-    now in the job of my dreams and so excited about the future. ”
+  until now. I couldn’t recommend this course enough. I’m
+  now in the job of my dreams and so excited about the future. ”
   `;
   page(0);
+  changeSize(0);
 };
