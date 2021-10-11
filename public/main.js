@@ -19,8 +19,8 @@ prev.addEventListener("click", () => {
   tanya();
 });
 
-const page = numberPage => {
-  if (numberPage > 0) {
+const page = id => {
+  if (id > 0) {
     next.style.cursor = "auto";
     prev.style.cursor = "pointer";
   } else {
@@ -29,16 +29,17 @@ const page = numberPage => {
   }
 };
 
-const changeSize = page => {
-  if (page == 0) {
-    queryMobile.matches ? (description.style.fontSize = "1.20rem") : (description.style.fontSize = "1.25rem");
-  } else {
+const changeSize = id => {
+  if (id == 1) {
     queryMobile.matches ? (description.style.fontSize = "1.25rem") : (description.style.fontSize = "1.28rem");
+  } else {
+    queryMobile.matches ? (description.style.fontSize = "1.20rem") : (description.style.fontSize = "1.25rem");
   }
 };
 queryMobile.addEventListener("change", changeSize);
 
 const john = () => {
+  const id = 1;
   named.innerHTML = "John Tarkpor";
   person.src = "./images/image-john.jpg";
   person.alt = "image-john";
@@ -48,11 +49,12 @@ const john = () => {
   course. The depth the instructors go into is incredible. I now feel so
   confident about starting up as a professional developer. ”
   `;
-  page(1);
-  changeSize(1);
+  page(id);
+  changeSize(id);
 };
 
 const tanya = () => {
+  const id = 0;
   named.innerHTML = "Tanya Sinclair";
   person.src = "./images/image-tanya.jpg";
   person.alt = "image-tanya";
@@ -62,6 +64,6 @@ const tanya = () => {
   until now. I couldn’t recommend this course enough. I’m
   now in the job of my dreams and so excited about the future. ”
   `;
-  page(0);
-  changeSize(0);
+  page(id);
+  changeSize(id);
 };
