@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor | Coding bootcamp testimonials slider](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwind-navigation-between-component-iEiaxcaeF)
+- Live Site URL: [Deploy with github page](https://lenugo.github.io/coding-bootcamp-testimonials-slider/)
 
 ## My process
 
